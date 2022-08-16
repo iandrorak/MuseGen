@@ -1,0 +1,6 @@
+tensorflow
+magenta
+pyfluidsynth
+streamlit
+midi2audio
+Pillow
