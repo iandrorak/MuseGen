@@ -22,7 +22,7 @@ The goal is to provide an AI based application that can genrate royalty free mus
 
 1. RUN :
 ```shell
-docker bild . -t musegen
+docker build . -t musegen
 ```
 
 ```shell
