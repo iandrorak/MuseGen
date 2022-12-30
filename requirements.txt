@@ -4,3 +4,4 @@ pyfluidsynth
 streamlit
 midi2audio
 Pillow
+protobuf
