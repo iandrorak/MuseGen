@@ -4,6 +4,7 @@ WORKDIR /home/app
 # Copy requirements.txt in the container and install dependencies with pip & update
 COPY requirements.txt /dependencies/requirements.txt
 RUN pip install -r /dependencies/requirements.txt
+RUN wget https://raw.githubusercontent.com/protocolbuffers/protobuf/main/python/google/protobuf/internal/builder.py -O /usr/local/lib/python3.7/site-packages/google/protobuf/internal/builder.py
 RUN apt-get update && apt-get install -y libfluidsynth2 fluid-soundfont-gm build-essential libasound2-dev libjack-dev fluidsynth
 # Copy all needed files in the container
 # Dataset
